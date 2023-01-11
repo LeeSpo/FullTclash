@@ -114,7 +114,7 @@ apt install -y git && git clone https://github.com/AirportR/FullTclash.git && cd
 方法2： 项目根目录下有一个文件名为 login.py ，可以通过指令运行它：
 
 ```
-python .\login.py
+python ./login.py
 ```
 
 当程序退出后即可自动生成一个名为 my_bot.session 的文件
