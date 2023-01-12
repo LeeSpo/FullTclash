@@ -100,7 +100,7 @@ pip3 install -r requirements.txt
 方法2：使用git（Linux推荐，方便更新），首先安装git，然后拉取仓库。以下指令为 Ubuntu 发行版作示例，Windows自行解决。
 
 ```
-apt install -y git && git clone https://github.com/LeeSpo/FullTclash.git && cd FullTclash
+yum install -y git && git clone https://github.com/LeeSpo/FullTclash.git && cd FullTclash
 ```
 
 此方法在中国大陆可能需要代理加速，请自行解决。
@@ -114,7 +114,7 @@ apt install -y git && git clone https://github.com/LeeSpo/FullTclash.git && cd F
 方法2： 项目根目录下有一个文件名为 login.py ，可以通过指令运行它：
 
 ```
-python ./login.py
+python3 ./login.py
 ```
 
 当程序退出后即可自动生成一个名为 my_bot.session 的文件
