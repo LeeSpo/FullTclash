@@ -97,7 +97,7 @@ pip3 install -r requirements.txt
 
 方法1：直接下载（不会有人不知道在哪下吧？）
 
-方法2：使用git（Linux推荐，方便更新），首先安装git，然后拉取仓库。以下指令为 Ubuntu 发行版作示例，Windows自行解决。
+方法2：使用git（Linux推荐，方便更新），首先安装git，然后拉取仓库。以下指令为 RHEL 发行版作示例，Windows自行解决。
 
 ```
 yum install -y git && git clone https://github.com/LeeSpo/FullTclash.git && cd FullTclash
@@ -159,7 +159,7 @@ chmod +x ./resources/clash-linux-amd64
 在项目目录下运行以下指令
 
 ```
-python main.py
+python3 main.py
 ```
 
 等待初始化操作，出现“程序已启动!”字样就说明在运行了.
