@@ -100,7 +100,7 @@ pip3 install -r requirements.txt
 方法2：使用git（Linux推荐，方便更新），首先安装git，然后拉取仓库。以下指令为 Ubuntu 发行版作示例，Windows自行解决。
 
 ```
-apt install -y git && git clone https://github.com/AirportR/FullTclash.git && cd FullTclash
+apt install -y git && git clone https://github.com/LeeSpo/FullTclash.git && cd FullTclash
 ```
 
 此方法在中国大陆可能需要代理加速，请自行解决。
